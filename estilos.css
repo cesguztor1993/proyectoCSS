@@ -1,0 +1,119 @@
+
+*
+{
+    margin:0%;
+    padding:0%;
+}
+/*Estilos para la cabecera*/
+header
+{
+    width: 100vw;
+    height: 50px;
+    background-color:rgb(43, 43, 129);
+}
+header > div
+{
+    
+    padding-top:10px;
+    
+
+
+    font-size:24px;
+    text-align:center;
+    color: white;
+    font-weight: bold;
+    
+}
+/*Fin de los estilos de la cabecera*/
+
+
+
+/*Estilos para la navegación principal*/
+nav
+{
+    width: 100vw;
+    height: 30px;
+    background-color:rgb(145, 145, 218);
+}
+
+nav > div
+{
+    padding-top: 5px;
+    padding-right: 35px;
+    font-weight: bold;
+    font-size: 18PX;
+}
+nav  a 
+{
+    text-decoration: none; 
+    color: aliceblue;
+}
+
+nav > div > div
+{
+    display: inline-block;
+}
+
+
+nav > div 
+{
+    text-align: right;
+    
+}
+
+/*Fin de los estilos de navegación principal*/
+
+/*Estiloa para el main*/
+main
+{
+    width: 100vw;
+    height:100vh;
+    display:flex;
+    box-sizing: content-box;
+    background-color: black;
+}
+
+/*Fin para los estilos main*/
+
+
+/*Estilos para el aside*/
+aside
+{
+    width:25vw;
+    box-shadow: con;
+    background-color: rgb(205, 205, 218);
+    box-sizing: border-box;
+}
+
+aside > div
+{
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+
+aside > div li
+{
+    padding: 8px 0 0 0;
+    box-sizing: border-box;
+}
+/*Fin para los estilos aside*/
+
+
+/*Estilos para el section*/
+section
+{
+    width:75vw;
+    height:100vh;
+    background-color: rgb(237, 237, 245);
+    box-sizing: border-box;
+}
+
+
+
+/*Fin para los estilos section*/
+
+
+
+/*Estilos pie de la página*/
+
+/*Fin de estilos de la página*/
