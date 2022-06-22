@@ -65,7 +65,6 @@ nav > div
 main
 {
     width: 100vw;
-    height:100vh;
     display:flex;
     box-sizing: border-box;
     background-color: black;
@@ -93,7 +92,22 @@ aside > div li
 {
     padding: 8px 0 0 0;
     box-sizing: border-box;
+   
 }
+
+aside > div li a
+{
+    text-decoration: none;
+}
+
+aside > div li a:hover
+{
+   color: rgb(83, 83, 168);
+   font-weight: bold;
+   font-size:18px;
+}
+
+
 /*Fin para los estilos aside*/
 
 
@@ -120,9 +134,15 @@ iframe
     box-sizing: border-box;
     padding:20px;
 }
-.contenedorPagina .sangriaTituloDos
+.contenedorPagina .tituloUno
+{
+    font-family: georgia, arial, helvetica;
+    font-weight: bold;
+}
+.contenedorPagina .tituloDos
 {
     text-indent: 35px;
+    font-family: monospace;
 }
 
 

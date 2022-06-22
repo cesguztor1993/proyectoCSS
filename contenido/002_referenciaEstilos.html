@@ -1,4 +1,71 @@
-<div>
-    <h3>Referencia a estilos</h3>
-</div>
-    
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../estilos.css">
+</head>
+
+<body>
+    <div class="contenedorPagina">
+        <h1 class="tituloUno">Referencia a Estilos</h1>
+        <br>
+        <h2 class="tituloDos">1. Por Nombre</h2>
+        <pre>
+            <code>
+                span {
+                    font-size: 20px;
+                      }
+            </code>
+            <span>Se aplica los cambios a todas las etiquetas 'span'</span>
+        </pre>
+        <h2 class="tituloDos">2. Múltiples selectores</h2>
+        <pre>
+            <code>  
+                p, span {
+                            font-size: 20px;
+                        }
+            </code>
+            <span>Se aplica los cambios a todas las etiquetas 'span' y 'p'</span>
+            <span>Se referencia a varias etiquetas, todas estas separadas por una coma</span>
+        </pre>
+        <h2 class="tituloDos">3. Selector descendiente</h2>
+        <pre>
+            <code>
+                main p {
+                    font-size: 20px;
+                   }
+            </code>
+            <span>Se aplica los cambios a todas las etiquetas 'p' que esten dentro de la etiqueta main</span>
+            <span>La etiqueta tiene que estar dentro de la main, ya siendo hijo o nieta de esta</span>
+        </pre>
+        <h2 class="tituloDos">4. Selector hijo directo</h2>
+        <pre>
+            <code>
+                section > p {
+					font-size: 20px;
+				}
+            </code>
+            <span>Se aplica los cambios a todas las etiquetas 'p' que esten dentro de la etiqueta 'section'</span>
+            <span>La etiqueta tiene que estar dentro de section directamente, tiene que ser hijo y no nieto</span>
+        </pre>
+        <h2 class="tituloDos">5. Selector de predecesot</h2>
+        <pre>
+            <code>
+                h1 + p {
+                    font-size: 20px;
+                    }
+        
+            </code>
+            <span>Se aplica los estilos a la etiqueta p que se encuentre después de la etiqueta h1</span>
+            <span>Tienen que sean Hermanos y este inmediatamente después de h1. </span>
+            <span>Caso existe consecuente otra etiqueta p o esta este en medio de otra etiqueta,</span>
+            <spano>no se podrá efectuar el estilo.</span>
+        </pre>
+    </div>
+</body>
+
+</html>
