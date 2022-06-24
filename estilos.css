@@ -5,6 +5,7 @@
     padding:0%;
     box-sizing:border-box;
 }
+/*================================================================*/
 /*Estilos para la cabecera*/
 header
 {
@@ -22,9 +23,7 @@ header > div
     box-sizing: border-box;
 }
 /*Fin de los estilos de la cabecera*/
-
-
-
+/*================================================================*/
 /*Estilos para la navegación principal*/
 nav
 {
@@ -60,7 +59,7 @@ nav > div
 }
 
 /*Fin de los estilos de navegación principal*/
-
+/*================================================================*/
 /*Estiloa para el main*/
 main
 {
@@ -71,8 +70,7 @@ main
 }
 
 /*Fin para los estilos main*/
-
-
+/*================================================================*/
 /*Estilos para el aside*/
 aside
 {
@@ -109,8 +107,7 @@ aside > div li a:hover
 
 
 /*Fin para los estilos aside*/
-
-
+/*================================================================*/
 /*Estilos para el section*/
 section
 {
@@ -143,14 +140,27 @@ iframe
 {
     text-indent: 35px;
     font-family: monospace;
+} 
+h2 + pre > div
+{
+    color:rgb(18, 18, 21);
+    font-weight: bold;
+    font-size:14px;
+    font-style: italic;
+    width:50%;
+    background-color:rgb(83, 83, 168,0.2);
+    border:dashed 1px;
+    border-radius:5px;
+    margin-left: 80px;
 }
-
-
-
+pre > div ~ span
+{
+    color:orange;
+    font: 12px verdana;
+    line-height: 1.5;
+}
 /*Fin para los estilos section*/
-
-
-
+/*================================================================*/
 /*Estilos pie de la página*/
 footer
 {
@@ -159,3 +169,4 @@ footer
     background-color:rgb(43, 43, 129);
 }
 /*Fin de estilos de la página*/
+/*================================================================*/
