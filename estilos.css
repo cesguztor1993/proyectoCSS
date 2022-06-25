@@ -30,6 +30,8 @@ nav
     width: 100vw;
     height: 30px;
     background-color:rgb(145, 145, 218);
+
+    
 }
 
 nav > div
@@ -56,6 +58,12 @@ nav > div
 {
     text-align: right;
     
+}
+
+
+nav > div div:last-child
+{
+    background-color: green;
 }
 
 /*Fin de los estilos de navegación principal*/
