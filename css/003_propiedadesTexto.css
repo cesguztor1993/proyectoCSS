@@ -1,0 +1,25 @@
+*
+{
+    line-height: 1.5em;
+}
+.negrita
+{
+    font-weight: bold;
+}
+
+.tamaño
+{
+    font-size:25px;
+}
+.estilo
+{
+    font-family: 'Righteous', cursive;
+}
+
+
+.fuente
+{
+    font: bold 25px 'Righteous', cursive;
+}
+
+
