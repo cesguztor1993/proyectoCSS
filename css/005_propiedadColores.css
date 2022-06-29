@@ -1,0 +1,40 @@
+*
+{
+    line-height: 1.5em;
+}
+
+.hexadecimal
+{
+    width: 150px;
+    height: 150px;
+    border: solid 1px;
+    border-radius:5px;
+    background-color:#ff0000;
+}
+
+.rgbColor
+{
+    width: 150px;
+    height: 150px;
+    border: solid 1px;
+    border-radius:5px;
+    background-color:rgb(10,10,200);
+}
+
+.rgbColorAlfa
+{
+    width: 150px;
+    height: 150px;
+    border: solid 1px;
+    border-radius:5px;
+    background-color:rgba(10,10,200,0.5);
+}
+
+.hslColor
+{
+    width: 150px;
+    height: 150px;
+    border: solid 1px;
+    border-radius:5px;
+    background-color:hsl(1, 90%, 50%)
+}
