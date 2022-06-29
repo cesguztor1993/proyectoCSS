@@ -9,7 +9,6 @@
 /*Estilos para la cabecera*/
 header
 {
-    width: 100vw;
     height: 50px;
     background-color:rgb(43, 43, 129);
 }
@@ -27,10 +26,9 @@ header > div
 /*Estilos para la navegación principal*/
 nav
 {
-    width: 100vw;
     height: 30px;
     background-color:rgb(84, 84, 155);
-
+    box-sizing: border-box;
     
 }
 
@@ -49,7 +47,7 @@ nav  a
 }
 
 nav > div > div
-{
+{   
     display: inline-block;
 }
 
@@ -71,10 +69,10 @@ nav > div div:last-child
 /*Estiloa para el main*/
 main
 {
-    width: 100vw;
     display:flex;
     box-sizing: border-box;
     background-color: black;
+    min-height: 100vh;
 }
 
 /*Fin para los estilos main*/
@@ -85,11 +83,11 @@ aside
     flex:1;
     background-color: rgb(205, 205, 218);
     box-sizing: border-box;
+    height:auto;
 }
 
 aside > div
 {
-    width:100%;
     padding-left: 25px;
     box-sizing: border-box;
 }
@@ -120,28 +118,39 @@ aside > div li a:hover
 section
 {
     flex:3;
-    height:100vh;
     background-color: rgb(237, 237, 245);
     box-sizing: border-box;
+    min-height: auto;
 }
 section div
 {
+    width:auto;
     box-sizing: border-box;
+    overflow:visible;
+    min-height:100vh;
+    
 }
 iframe
 {
     width:100%;
-    height:100vh;
+    box-sizing: border-box;
+    overflow:visible;
+
+    min-height: 100vh;
+    height: 100%;
 }
 .contenedorPagina
 {
     
     box-sizing: border-box;
-    padding:20px 0px;
+    padding:20px 40px;
+    min-height:auto;
+    
 }
 .contenedorPagina .tituloUno
 {
     font-family: georgia, arial, helvetica;
+    padding: 0px 25px;
     font-weight: bold;
 }
 .contenedorPagina .tituloDos
@@ -163,7 +172,7 @@ h2 + pre > div
 }
 pre > div ~ span
 {
-    color:orange;
+    color:rgb(16, 12, 47);
     font: 12px verdana;
     line-height: 1.5;
 }
@@ -172,9 +181,14 @@ pre > div ~ span
 /*Estilos pie de la página*/
 footer
 {
-    width: 100vw;
-    height: 50px;
+    height: 75px;
+    padding: 25px;
+    box-sizing: border-box;
     background-color:rgb(43, 43, 129);
+    color:aliceblue;
+    font: bold 16px verdana, arial, helvetica;
+    text-align:center;
+    vertical-align: center;
 }
 /*Fin de estilos de la página*/
 /*================================================================*/

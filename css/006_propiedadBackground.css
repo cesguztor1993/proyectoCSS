@@ -1,0 +1,31 @@
+.bColor
+{
+    background-color:antiquewhite;
+    width:250px;
+    height:250px;
+}
+
+.bImage
+{
+    background-image: url(../image/fondoFabri.jpeg);
+    width:250px;
+    height:250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bSize
+{
+    background-image: url(../image/fondoJC.jpg);
+    width:250px;
+    height:250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+
+    background-clip: content-box;
+
+    border: red 5px solid;
+    outline: blue 5px solid;
+    outline-offset:10px;
+}
