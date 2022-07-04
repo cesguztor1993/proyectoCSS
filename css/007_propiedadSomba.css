@@ -1,0 +1,12 @@
+.contenedorSombra
+{
+    width:250px;
+    padding-top:100px;
+    height:250px;
+    background-color:antiquewhite;
+    text-align:center;
+    vertical-align: middle;
+
+    box-shadow: rgb(180, 40, 40,0.2) -5px 5px 2px inset;
+    text-shadow: rgba(95, 90, 90, 0.8) 5px 10px 1px;
+}

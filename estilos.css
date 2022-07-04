@@ -71,7 +71,6 @@ main
 {
     display:flex;
     box-sizing: border-box;
-    background-color: black;
     min-height: 100vh;
 }
 
@@ -81,22 +80,21 @@ main
 aside
 {
     flex:1;
-    background-color: rgb(205, 205, 218);
     box-sizing: border-box;
     height:auto;
+
+    
 }
 
 aside > div
 {
-    padding-left: 25px;
     box-sizing: border-box;
 }
 
 aside > div li
 {
-    padding: 8px 0 0 0;
+    padding: 4px 0 0 25px;
     box-sizing: border-box;
-   
 }
 
 aside > div li a
@@ -108,7 +106,24 @@ aside > div li a:hover
 {
    color: rgb(83, 83, 168);
    font-weight: bold;
-   font-size:18px;
+   font-size:16px;
+  
+}
+
+.contenedorLista:click
+{
+   background-color:red;
+}
+
+.contenedorLista:hover
+{
+    width:100%;
+    padding: 1px 0px 5px;
+    border-top:solid 1px rgba(151, 127, 127, 0.4);
+    border-bottom: solid 3px rgba(0, 0, 0, 0.6);
+    background-color: rgba(26, 25, 25, 0.5);
+    text-indent: 25px;
+    border-radius: 0px 20px 20px 0px;
 }
 
 
@@ -121,6 +136,8 @@ section
     background-color: rgb(237, 237, 245);
     box-sizing: border-box;
     min-height: auto;
+
+    box-shadow: rgba(53, 53, 54, 0.5) -5px 0px 5px 3px;
 }
 section div
 {

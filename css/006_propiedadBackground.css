@@ -12,6 +12,11 @@
     height:250px;
     background-size: cover;
     background-repeat: no-repeat;
+
+
+
+    filter:grayscale(0.3);
+    filter:sepia(0.5);
 }
 
 .bSize
